@@ -1,0 +1,25 @@
+site_name: canvas-ai-cli
+site_description: Human-in-the-loop Canvas LMS CLI with agent-safe interfaces
+site_url: https://example.com/canvas-ai-cli
+repo_name: canvas-ai-cli
+repo_url: https://example.com/canvas-ai-cli
+
+theme:
+  name: material
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+
+nav:
+  - Overview: index.md
+  - Quickstart: quickstart.md
+  - Command Reference: command-reference.md
+  - Agent Interface: agent-interface.md
+  - MCP Server: mcp-server.md
+  - Autonomous Workflow: autonomous-workflow.md
+  - Safety & Academic Integrity: safety-policy.md
+  - Examples: examples.md
+  - Workflow Examples: workflow-examples.md
+  - Troubleshooting: troubleshooting.md

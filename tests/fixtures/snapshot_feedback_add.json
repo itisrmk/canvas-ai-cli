@@ -1,0 +1,11 @@
+{
+  "schema_version": "v5",
+  "ok": true,
+  "command": "feedback.add",
+  "result": {
+    "id": 1
+  },
+  "lines": [
+    "Saved feedback #1"
+  ]
+}

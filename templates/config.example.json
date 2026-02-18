@@ -1,0 +1,11 @@
+{
+  "canvas_base_url": "https://school.instructure.com",
+  "auth": {
+    "mode": "token",
+    "token": "<CANVAS_API_TOKEN>"
+  },
+  "branding": {
+    "school_name": "Example University",
+    "logo_url": "https://school.instructure.com/logo.png"
+  }
+}

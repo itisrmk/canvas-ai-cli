@@ -1,0 +1,13 @@
+{
+  "default": {
+    "allowed_modes": ["tutor", "outline", "draft", "polish"],
+    "dry_run_only": true
+  },
+  "courses": {
+    "123": {
+      "allowed_modes": ["outline", "draft"],
+      "disable_submit": false,
+      "dry_run_only": true
+    }
+  }
+}

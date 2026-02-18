@@ -1,0 +1,24 @@
+{
+  "schema_version": "v5",
+  "ok": true,
+  "command": "do",
+  "result": {
+    "run_id": "run_<id>",
+    "state": "ready",
+    "mode": "draft",
+    "goal": null,
+    "artifacts": {
+      "draft_md": "<artifact:draft_md>",
+      "evidence_json": "<artifact:evidence_json>",
+      "review_json": "<artifact:review_json>",
+      "sources_json": "<artifact:sources_json>",
+      "plan_json": "<artifact:plan_json>",
+      "submit_checklist_md": "<artifact:submit_checklist_md>"
+    },
+    "summary": "<summary>"
+  },
+  "lines": [
+    "Workflow complete: run_id=run_<id>",
+    "Artifacts written for human review. No auto-submit performed."
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": "v5",
+  "ok": true,
+  "command": "submit",
+  "result": {
+    "replayed": false,
+    "assignment_id": 123,
+    "file": "<file>",
+    "status": "dry_run",
+    "message": "Dry run only. No submission sent.",
+    "run_id": "run_<id>"
+  },
+  "lines": [
+    "Submission result: <redacted>"
+  ]
+}

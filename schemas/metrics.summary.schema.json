@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","type":"object","properties":{"command":{"const":"metrics.summary"},"result":{"type":"object","required":["total_runs","success_runs","failed_runs","by_command"],"properties":{"total_runs":{"type":"integer"},"success_runs":{"type":"integer"},"failed_runs":{"type":"integer"},"by_command":{"type":"object"}}}}}

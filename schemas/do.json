@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "canvas-ai do output",
+  "type": "object",
+  "required": ["schema_version", "ok", "command", "result"],
+  "properties": {
+    "schema_version": {"type": "string"},
+    "ok": {"const": true},
+    "command": {"const": "do"},
+    "result": {
+      "type": "object",
+      "required": ["run_id", "state", "mode", "artifacts", "summary"],
+      "properties": {
+        "run_id": {"type": "string"},
+        "state": {"type": "string"},
+        "mode": {"type": "string"},
+        "goal": {"type": ["string", "null"]},
+        "summary": {"type": "string"},
+        "artifacts": {"type": "object"}
+      }
+    }
+  }
+}

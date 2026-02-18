@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "canvas-ai"
+version = "0.1.0"
+description = "Human-in-the-loop Canvas LMS CLI assistant"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "typer>=0.12.0",
+  "requests>=2.31.0",
+  "rich>=13.7.0",
+  "mcp>=1.0.0",
+  "jsonschema>=4.23.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0.0",
+  "ruff>=0.5.0",
+]
+
+[project.scripts]
+canvas-ai = "canvas_ai.cli:app"
+canvas-ai-mcp = "canvas_ai.mcp_server:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]

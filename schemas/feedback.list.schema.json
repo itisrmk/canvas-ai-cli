@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "ok",
+    "command",
+    "result"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "ok": {
+      "type": "boolean"
+    },
+    "command": {
+      "const": "feedback.list"
+    },
+    "result": {
+      "type": "object",
+      "required": [
+        "feedback"
+      ]
+    }
+  }
+}

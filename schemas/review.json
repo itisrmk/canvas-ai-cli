@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","type":"object","required":["schema_version","ok","command","result"],"properties":{"command":{"const":"review"},"result":{"type":"object","required":["run_id","assignment_id","confirm_token","expires_at"]}}}

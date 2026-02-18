@@ -1,0 +1,16 @@
+{
+  "schema_version": "v5",
+  "ok": true,
+  "command": "metrics.summary",
+  "result": {
+    "total_runs": "<n>",
+    "success_runs": "<n>",
+    "failed_runs": "<n>",
+    "by_command": "<map>",
+    "common_error_codes": "<list>"
+  },
+  "lines": [
+    "Total runs: <n>",
+    "Success: <n> Failed: <n>"
+  ]
+}
