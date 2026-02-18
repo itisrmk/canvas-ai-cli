@@ -140,4 +140,4 @@ canvas-ai --json agent feature-contract
 
 ## License
 
-Add a license file before public release if not already present.
+This project is licensed under the [MIT License](LICENSE).
